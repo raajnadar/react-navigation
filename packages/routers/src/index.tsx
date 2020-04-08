@@ -1,40 +1,25 @@
 import * as CommonActions from './CommonActions';
 
-import type {
+export type {
   StackActionHelpers,
   StackActionType,
   StackRouterOptions,
   StackNavigationState,
 } from './StackRouter';
 
-import type {
+export type {
   TabActionHelpers,
   TabActionType,
   TabRouterOptions,
   TabNavigationState,
 } from './TabRouter';
 
-import type {
+export type {
   DrawerActionHelpers,
   DrawerActionType,
   DrawerRouterOptions,
   DrawerNavigationState,
 } from './DrawerRouter';
-
-export type {
-  StackActionHelpers,
-  StackActionType,
-  StackRouterOptions,
-  StackNavigationState,
-  TabActionHelpers,
-  TabActionType,
-  TabRouterOptions,
-  TabNavigationState,
-  DrawerActionHelpers,
-  DrawerActionType,
-  DrawerRouterOptions,
-  DrawerNavigationState,
-};
 
 export { CommonActions };
 
